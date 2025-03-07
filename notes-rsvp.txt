@@ -1,0 +1,23 @@
+Environments:
+1. Spring Boot
+2. MongoDB
+3. Apache Kafka Server
+4. Apache Spark
+
+Packages:
+1. websocket
+2. kafka
+3. Json
+4. webflux
+5. mongodb-reactive
+6. spark-core
+7. spark-sql
+8. lombok
+
+Installation Procedure:
+1. Create a Mongo db
+2. Check for the availability of 29092,8082,8585,8282,27017,7077 ports
+3. Run Docker-Composer for Kafka and Apache Spark
+4. Run Meetup RSVP Simulator App(Server)
+5. Run Meetup RSVP Data Gathering(Client)
+6. Run Data Analyzer App(Collector-Kafka-Spark-MongoDB)
