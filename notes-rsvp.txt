@@ -1,10 +1,10 @@
-Environments:
+- Environments:
 1. Spring Boot
 2. MongoDB
 3. Apache Kafka Server
 4. Apache Spark
 
-Packages:
+- Packages:
 1. websocket
 2. kafka
 3. Json
@@ -14,7 +14,7 @@ Packages:
 7. spark-sql
 8. lombok
 
-Installation Procedure:
+- Installation Procedure:
 1. Create a Mongo db
 2. Check for the availability of 29092,8082,8585,8282,27017,7077 ports
 3. Run Docker-Composer for Kafka and Apache Spark
